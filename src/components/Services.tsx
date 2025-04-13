@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Sparkles, Scissors, Paint, Gem } from 'lucide-react';
+import { Sparkles, Scissors, Paintbrush, Gem } from 'lucide-react';
 
 const Services = () => {
   const services = [
@@ -11,7 +11,7 @@ const Services = () => {
       price: "A partir de R$50"
     },
     {
-      icon: <Paint className="h-10 w-10 text-primary" />,
+      icon: <Paintbrush className="h-10 w-10 text-primary" />,
       name: "Pedicure",
       description: "Tratamento especializado para os pés, com esfoliação, hidratação e esmaltação perfeita.",
       price: "A partir de R$60"
